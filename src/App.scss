@@ -1,0 +1,24 @@
+//Sass lets you use features that do not exist in CSS, like variables, nested rules, mixins, imports, inheritance, built-in functions, and other stuff.
+
+/* define variables for the primary colors */
+$primary_color: #31179d;
+
+$secondary_color: #b2ad7f;
+
+$boarder_radius: 25px;
+
+h1{
+    color: $primary_color;
+}
+
+input{
+    border-radius: $boarder_radius;
+}
+
+ul{
+    list-style-type: none;
+
+    li{
+        color: $secondary_color;
+    }
+}
